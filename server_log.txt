@@ -960,3 +960,187 @@ v0.3z, (C)2005-2014 SA-MP Team
 [15:13:07] Number of vehicle models: 0
 [15:13:26] sscanf warning: Strings without a length are deprecated, please add a destination size.
 [15:26:15] [part] Mikeeeee has left the server (0:1)
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3z, (C)2005-2014 SA-MP Team
+
+[16:21:20] 
+[16:21:20] Server Plugins
+[16:21:20] --------------
+[16:21:20]  Loading plugin: sscanf
+[16:21:20] 
+
+[16:21:20]  ===============================
+
+[16:21:20]       sscanf plugin loaded.     
+
+[16:21:20]          Version:  2.8.1        
+
+[16:21:20]    (c) 2012 Alex "Y_Less" Cole  
+
+[16:21:20]  ===============================
+
+[16:21:20]   Loaded.
+[16:21:20]  Loaded 1 plugins.
+
+[16:21:20] 
+[16:21:20] Filterscripts
+[16:21:20] ---------------
+[16:21:20]   Loading filterscript 'gl_actions.amx'...
+[16:21:20]   Loading filterscript 'gl_realtime.amx'...
+[16:21:20]   Loading filterscript 'gl_property.amx'...
+[16:21:20] 
+-----------------------------------
+[16:21:20] Grand Larceny Property Filterscript		
+[16:21:20] -----------------------------------
+
+[16:21:20]   Loading filterscript 'gl_mapicon.amx'...
+[16:21:20]   Loading filterscript 'ls_mall.amx'...
+[16:21:20]   Loading filterscript 'ls_elevator.amx'...
+[16:21:20]   Loading filterscript 'attachments.amx'...
+[16:21:20]   Loading filterscript 'skinchanger.amx'...
+[16:21:20] 
+--Admin Player Skin Changer Loaded
+
+[16:21:20]   Loading filterscript 'vspawner.amx'...
+[16:21:20] 
+--Admin Vehicle Spawner Loaded
+
+[16:21:20]   Loaded 9 filterscripts.
+
+[16:21:20] Reading File: blank
+[16:21:20] Reading File: properties/houses.txt
+[16:21:20] Reading File: properties/businesses.txt
+[16:21:20] Reading File: properties/banks.txt
+[16:21:20] Reading File: properties/police.txt
+[16:21:20] 
+----------------------------------
+[16:21:20] -------------Movie Server-----------
+[16:21:20] ----------------------------------
+
+[16:21:20] Number of vehicle models: 0
+[16:21:56] Incoming connection: 127.0.0.1:63313
+[16:21:57] [join] Mikeeeee has joined the server (0:127.0.0.1)
+[16:22:30] [part] Mikeeeee has left the server (0:0)
+[16:22:41] Incoming connection: 127.0.0.1:57617
+[16:22:42] [join] Mikeeeee has joined the server (0:127.0.0.1)
+[16:24:30] [part] Mikeeeee has left the server (0:0)
+[16:25:14] Incoming connection: 127.0.0.1:55976
+[16:25:15] [join] Mikeeeee has joined the server (0:127.0.0.1)
+[16:26:05] [part] Mikeeeee has left the server (0:0)
+[16:26:21] Incoming connection: 127.0.0.1:62954
+[16:26:21] [join] Mikeeeee has joined the server (0:127.0.0.1)
+[16:30:58] RCON (In-Game): Player #0 (Mikeeeee) has logged in.
+[16:31:01] RCON (In-Game): Player [Mikeeeee] sent command: gmx restart
+[16:31:13] Reading File: blank
+[16:31:13] Reading File: properties/houses.txt
+[16:31:13] Reading File: properties/businesses.txt
+[16:31:13] Reading File: properties/banks.txt
+[16:31:13] Reading File: properties/police.txt
+[16:31:13] 
+----------------------------------
+[16:31:13] -------------Movie Server-----------
+[16:31:13] ----------------------------------
+
+[16:31:13] Number of vehicle models: 0
+[16:31:31] RCON (In-Game): Player [Mikeeeee] sent command: gmx restart
+[16:31:43] Reading File: blank
+[16:31:43] Reading File: properties/houses.txt
+[16:31:43] Reading File: properties/businesses.txt
+[16:31:43] Reading File: properties/banks.txt
+[16:31:43] Reading File: properties/police.txt
+[16:31:43] 
+----------------------------------
+[16:31:43] -------------Movie Server-----------
+[16:31:43] ----------------------------------
+
+[16:31:43] Number of vehicle models: 0
+[16:31:59] RCON (In-Game): Player [Mikeeeee] sent command: filescripts
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3z, (C)2005-2014 SA-MP Team
+
+[17:27:15] 
+[17:27:15] Server Plugins
+[17:27:15] --------------
+[17:27:15]  Loading plugin: sscanf
+[17:27:15] 
+
+[17:27:15]  ===============================
+
+[17:27:15]       sscanf plugin loaded.     
+
+[17:27:15]          Version:  2.8.1        
+
+[17:27:15]    (c) 2012 Alex "Y_Less" Cole  
+
+[17:27:15]  ===============================
+
+[17:27:15]   Loaded.
+[17:27:15]  Loaded 1 plugins.
+
+[17:27:15] 
+[17:27:15] Filterscripts
+[17:27:15] ---------------
+[17:27:15]   Loading filterscript 'gl_realtime.amx'...
+[17:27:15]   Loading filterscript 'menutest.amx'...
+[17:27:15]   Loaded 2 filterscripts.
+
+[17:27:15] 
+----------------------------------
+[17:27:15] -------------Movie Server-----------
+[17:27:15] ----------------------------------
+
+[17:27:15] Number of vehicle models: 0
+[17:29:47] Incoming connection: 127.0.0.1:61536
+[17:29:47] [join] Mikeeeee has joined the server (0:127.0.0.1)
+[17:30:16] sscanf warning: Strings without a length are deprecated, please add a destination size.
+[17:31:00] [part] Mikeeeee has left the server (0:1)
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3z, (C)2005-2014 SA-MP Team
+
+[18:01:20] 
+[18:01:20] Server Plugins
+[18:01:20] --------------
+[18:01:20]  Loading plugin: sscanf
+[18:01:20] 
+
+[18:01:20]  ===============================
+
+[18:01:20]       sscanf plugin loaded.     
+
+[18:01:20]          Version:  2.8.1        
+
+[18:01:20]    (c) 2012 Alex "Y_Less" Cole  
+
+[18:01:20]  ===============================
+
+[18:01:20]   Loaded.
+[18:01:20]  Loaded 1 plugins.
+
+[18:01:20] 
+[18:01:20] Filterscripts
+[18:01:20] ---------------
+[18:01:20]   Loading filterscript 'gl_realtime.amx'...
+[18:01:20]   Loading filterscript 'menutest.amx'...
+[18:01:20]   Loaded 2 filterscripts.
+
+[18:01:20] Script[gamemodes/movie.amx]: Run time error 17: "Invalid/unsupported P-code file format"
+[18:01:20] Failed to load 'gamemodes/movie.amx' script.
+[18:01:20] Number of vehicle models: 0
