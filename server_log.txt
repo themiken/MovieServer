@@ -1498,3 +1498,460 @@ v0.3z, (C)2005-2014 SA-MP Team
 [20:56:24] ----------------------------------
 
 [20:56:24] Number of vehicle models: 0
+[21:00:50] RCON (In-Game): Player [Mike] sent command: gmx restart
+[21:01:02] 
+----------------------------------
+[21:01:02] -------------Movie Server-----------
+[21:01:02] ----------------------------------
+
+[21:01:02] Number of vehicle models: 0
+[21:01:08] sscanf warning: Strings without a length are deprecated, please add a destination size.
+[21:01:21] sscanf warning: Strings without a length are deprecated, please add a destination size.
+[21:18:13] RCON (In-Game): Player [Mike] sent command: gmx restart
+[21:18:25] 
+----------------------------------
+[21:18:25] -------------Movie Server-----------
+[21:18:25] ----------------------------------
+
+[21:18:25] Number of vehicle models: 0
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3z, (C)2005-2014 SA-MP Team
+
+[21:31:03] 
+[21:31:03] Server Plugins
+[21:31:03] --------------
+[21:31:03]  Loading plugin: sscanf
+[21:31:03] 
+
+[21:31:03]  ===============================
+
+[21:31:03]       sscanf plugin loaded.     
+
+[21:31:03]          Version:  2.8.1        
+
+[21:31:03]    (c) 2012 Alex "Y_Less" Cole  
+
+[21:31:03]  ===============================
+
+[21:31:03]   Loaded.
+[21:31:03]  Loaded 1 plugins.
+
+[21:31:03] 
+[21:31:03] Filterscripts
+[21:31:03] ---------------
+[21:31:03]   Loading filterscript 'gl_realtime.amx'...
+[21:31:03]   Loaded 1 filterscripts.
+
+[21:31:03] 
+----------------------------------
+[21:31:03] -------------Movie Server-----------
+[21:31:03] ----------------------------------
+
+[21:31:03] Number of vehicle models: 0
+[21:31:18] Incoming connection: 127.0.0.1:49568
+[21:31:28] Incoming connection: 127.0.0.1:49572
+[21:31:38] Incoming connection: 127.0.0.1:49575
+[21:32:01] Incoming connection: 127.0.0.1:61578
+[21:32:01] [join] Mike has joined the server (0:127.0.0.1)
+[21:35:29] RCON (In-Game): Player #0 (Mike) has logged in.
+[21:35:30] RCON (In-Game): Player [Mike] sent command: gmx restart
+[21:35:42] 
+----------------------------------
+[21:35:42] -------------Movie Server-----------
+[21:35:42] ----------------------------------
+
+[21:35:42] Number of vehicle models: 0
+[21:36:16] (null)
+[21:41:08] RCON (In-Game): Player [Mike] sent command: gmx restart
+[21:41:20] 
+----------------------------------
+[21:41:20] -------------Movie Server-----------
+[21:41:20] ----------------------------------
+
+[21:41:20] Number of vehicle models: 0
+[21:41:48] 
+[21:45:31] RCON (In-Game): Player [Mike] sent command: gmx restart
+[21:45:43] 
+----------------------------------
+[21:45:43] -------------Movie Server-----------
+[21:45:43] ----------------------------------
+
+[21:45:43] Number of vehicle models: 0
+[21:45:51] (null)
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3z, (C)2005-2014 SA-MP Team
+
+[19:23:20] 
+[19:23:20] Server Plugins
+[19:23:20] --------------
+[19:23:20]  Loading plugin: sscanf
+[19:23:20] 
+
+[19:23:20]  ===============================
+
+[19:23:20]       sscanf plugin loaded.     
+
+[19:23:20]          Version:  2.8.1        
+
+[19:23:20]    (c) 2012 Alex "Y_Less" Cole  
+
+[19:23:20]  ===============================
+
+[19:23:20]   Loaded.
+[19:23:20]  Loaded 1 plugins.
+
+[19:23:20] 
+[19:23:20] Filterscripts
+[19:23:20] ---------------
+[19:23:20]   Loading filterscript 'gl_realtime.amx'...
+[19:23:20]   Loaded 1 filterscripts.
+
+[19:23:20] 
+----------------------------------
+[19:23:20] -------------Movie Server-----------
+[19:23:20] ----------------------------------
+
+[19:23:20] Number of vehicle models: 0
+[19:24:00] Incoming connection: 127.0.0.1:64787
+[19:24:00] [join] Mike has joined the server (0:127.0.0.1)
+[19:24:19] sscanf warning: Strings without a length are deprecated, please add a destination size.
+[19:27:01] [part] Mike has left the server (0:1)
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3z, (C)2005-2014 SA-MP Team
+
+[13:59:20] 
+[13:59:20] Server Plugins
+[13:59:20] --------------
+[13:59:20]  Loading plugin: sscanf
+[13:59:20] 
+
+[13:59:20]  ===============================
+
+[13:59:20]       sscanf plugin loaded.     
+
+[13:59:20]          Version:  2.8.1        
+
+[13:59:20]    (c) 2012 Alex "Y_Less" Cole  
+
+[13:59:20]  ===============================
+
+[13:59:20]   Loaded.
+[13:59:20]  Loaded 1 plugins.
+
+[13:59:20] 
+[13:59:20] Filterscripts
+[13:59:20] ---------------
+[13:59:20]   Loading filterscript 'gl_realtime.amx'...
+[13:59:20]   Loaded 1 filterscripts.
+
+[13:59:20] 
+----------------------------------
+[13:59:20] -------------Movie Server-----------
+[13:59:20] ----------------------------------
+
+[13:59:20] Number of vehicle models: 0
+[14:00:05] Incoming connection: 127.0.0.1:56811
+[14:00:05] [join] Mikeeeee has joined the server (0:127.0.0.1)
+[14:00:15] sscanf warning: Strings without a length are deprecated, please add a destination size.
+[14:02:51] [part] Mikeeeee has left the server (0:1)
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3z, (C)2005-2014 SA-MP Team
+
+[20:21:03] 
+[20:21:03] Server Plugins
+[20:21:03] --------------
+[20:21:03]  Loading plugin: sscanf
+[20:21:03] 
+
+[20:21:03]  ===============================
+
+[20:21:03]       sscanf plugin loaded.     
+
+[20:21:03]          Version:  2.8.1        
+
+[20:21:03]    (c) 2012 Alex "Y_Less" Cole  
+
+[20:21:03]  ===============================
+
+[20:21:03]   Loaded.
+[20:21:03]  Loaded 1 plugins.
+
+[20:21:03] 
+[20:21:03] Filterscripts
+[20:21:03] ---------------
+[20:21:03]   Loading filterscript 'gl_realtime.amx'...
+[20:21:03]   Loaded 1 filterscripts.
+
+[20:21:03] 
+----------------------------------
+[20:21:03] -------------Movie Server-----------
+[20:21:03] ----------------------------------
+
+[20:21:03] Number of vehicle models: 0
+[20:21:31] Incoming connection: 127.0.0.1:50823
+[20:21:31] [join] Mike has joined the server (0:127.0.0.1)
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3z, (C)2005-2014 SA-MP Team
+
+[20:31:06] 
+[20:31:06] Server Plugins
+[20:31:06] --------------
+[20:31:06]  Loading plugin: sscanf
+[20:31:06] 
+
+[20:31:06]  ===============================
+
+[20:31:06]       sscanf plugin loaded.     
+
+[20:31:06]          Version:  2.8.1        
+
+[20:31:06]    (c) 2012 Alex "Y_Less" Cole  
+
+[20:31:06]  ===============================
+
+[20:31:06]   Loaded.
+[20:31:06]  Loaded 1 plugins.
+
+[20:31:06] 
+[20:31:06] Filterscripts
+[20:31:06] ---------------
+[20:31:06]   Loading filterscript 'gl_realtime.amx'...
+[20:31:06]   Loaded 1 filterscripts.
+
+[20:31:06] 
+----------------------------------
+[20:31:06] -------------Movie Server-----------
+[20:31:06] ----------------------------------
+
+[20:31:06] Number of vehicle models: 0
+[20:31:43] Incoming connection: 127.0.0.1:60805
+[20:31:44] [join] Mike has joined the server (0:127.0.0.1)
+[20:31:44] Mike
+[20:35:41] [part] Mike has left the server (0:1)
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3z, (C)2005-2014 SA-MP Team
+
+[19:39:31] 
+[19:39:31] Server Plugins
+[19:39:31] --------------
+[19:39:31]  Loading plugin: sscanf
+[19:39:32] 
+
+[19:39:32]  ===============================
+
+[19:39:32]       sscanf plugin loaded.     
+
+[19:39:32]          Version:  2.8.1        
+
+[19:39:32]    (c) 2012 Alex "Y_Less" Cole  
+
+[19:39:32]  ===============================
+
+[19:39:32]   Loaded.
+[19:39:32]  Loaded 1 plugins.
+
+[19:39:32] 
+[19:39:32] Filterscripts
+[19:39:32] ---------------
+[19:39:32]   Loading filterscript 'gl_realtime.amx'...
+[19:39:32]   Loaded 1 filterscripts.
+
+[19:39:32] 
+----------------------------------
+[19:39:32] -------------Movie Server-----------
+[19:39:32] ----------------------------------
+
+[19:39:32] Number of vehicle models: 0
+[19:39:58] Incoming connection: 127.0.0.1:62434
+[19:39:59] [join] SuperMike.Th has joined the server (0:127.0.0.1)
+[19:41:24] sscanf warning: Strings without a length are deprecated, please add a destination size.
+[19:41:45] sscanf warning: Strings without a length are deprecated, please add a destination size.
+[19:43:07] sscanf warning: Strings without a length are deprecated, please add a destination size.
+[19:43:20] sscanf warning: Strings without a length are deprecated, please add a destination size.
+[19:46:29] RCON (In-Game): Player #0 (SuperMike.Th) failed login.
+[19:46:33] RCON (In-Game): Player #0 (SuperMike.Th) has logged in.
+[19:46:38] RCON (In-Game): Player [SuperMike.Th] sent command: gmx restart
+[19:46:50] 
+----------------------------------
+[19:46:50] -------------Movie Server-----------
+[19:46:50] ----------------------------------
+
+[19:46:50] Number of vehicle models: 0
+[19:47:00] sscanf warning: Strings without a length are deprecated, please add a destination size.
+[19:47:02] sscanf warning: Strings without a length are deprecated, please add a destination size.
+[19:47:03] sscanf warning: Strings without a length are deprecated, please add a destination size.
+[19:47:06] sscanf warning: Strings without a length are deprecated, please add a destination size.
+[19:47:07] sscanf warning: Strings without a length are deprecated, please add a destination size.
+[19:47:08] sscanf warning: Strings without a length are deprecated, please add a destination size.
+[19:47:09] sscanf warning: Strings without a length are deprecated, please add a destination size.
+[19:47:09] sscanf warning: Strings without a length are deprecated, please add a destination size.
+[19:47:10] sscanf warning: Strings without a length are deprecated, please add a destination size.
+[19:47:11] sscanf warning: Strings without a length are deprecated, please add a destination size.
+[19:47:12] sscanf warning: Strings without a length are deprecated, please add a destination size.
+[19:49:51] sscanf warning: Strings without a length are deprecated, please add a destination size.
+[19:50:00] RCON (In-Game): Player [SuperMike.Th] sent command: gmx restart
+[19:50:12] 
+----------------------------------
+[19:50:12] -------------Movie Server-----------
+[19:50:12] ----------------------------------
+
+[19:50:12] Number of vehicle models: 0
+[19:50:21] sscanf warning: Strings without a length are deprecated, please add a destination size.
+[19:50:24] sscanf warning: Strings without a length are deprecated, please add a destination size.
+[19:50:25] sscanf warning: Strings without a length are deprecated, please add a destination size.
+[19:50:28] sscanf warning: Strings without a length are deprecated, please add a destination size.
+[19:50:47] sscanf warning: Strings without a length are deprecated, please add a destination size.
+[19:58:01] RCON (In-Game): Player [SuperMike.Th] sent command: gmx restart
+[19:58:13] 
+----------------------------------
+[19:58:13] -------------Movie Server-----------
+[19:58:13] ----------------------------------
+
+[19:58:13] Number of vehicle models: 0
+[19:58:19] sscanf warning: Strings without a length are deprecated, please add a destination size.
+[19:58:19] sscanf warning: Format specifier does not match parameter count.
+[19:58:21] sscanf warning: Strings without a length are deprecated, please add a destination size.
+[19:58:21] sscanf warning: Format specifier does not match parameter count.
+[19:58:22] sscanf warning: Strings without a length are deprecated, please add a destination size.
+[19:58:22] sscanf warning: Format specifier does not match parameter count.
+[19:58:26] sscanf warning: Strings without a length are deprecated, please add a destination size.
+[19:58:26] sscanf warning: Format specifier does not match parameter count.
+[19:58:32] sscanf warning: Strings without a length are deprecated, please add a destination size.
+[19:58:32] sscanf warning: Format specifier does not match parameter count.
+[19:58:34] sscanf warning: Strings without a length are deprecated, please add a destination size.
+[19:58:34] sscanf warning: Format specifier does not match parameter count.
+[19:58:37] sscanf warning: Strings without a length are deprecated, please add a destination size.
+[19:58:37] sscanf warning: Format specifier does not match parameter count.
+[19:58:42] sscanf warning: Strings without a length are deprecated, please add a destination size.
+[19:58:42] sscanf warning: Format specifier does not match parameter count.
+[19:59:07] sscanf warning: Strings without a length are deprecated, please add a destination size.
+[19:59:07] sscanf warning: Format specifier does not match parameter count.
+[20:16:54] sscanf warning: Strings without a length are deprecated, please add a destination size.
+[20:16:54] sscanf warning: Format specifier does not match parameter count.
+[20:16:55] sscanf warning: Strings without a length are deprecated, please add a destination size.
+[20:16:55] sscanf warning: Format specifier does not match parameter count.
+[20:16:57] sscanf warning: Strings without a length are deprecated, please add a destination size.
+[20:16:57] sscanf warning: Format specifier does not match parameter count.
+[20:16:58] sscanf warning: Strings without a length are deprecated, please add a destination size.
+[20:16:58] sscanf warning: Format specifier does not match parameter count.
+[20:17:04] RCON (In-Game): Player [SuperMike.Th] sent command: gmx restart
+[20:17:16] 
+----------------------------------
+[20:17:16] -------------Movie Server-----------
+[20:17:16] ----------------------------------
+
+[20:17:16] Number of vehicle models: 0
+[20:17:23] [part] SuperMike.Th has left the server (0:1)
+[20:17:50] Incoming connection: 127.0.0.1:52588
+[20:17:50] [join] SuperMike.Th has joined the server (0:127.0.0.1)
+[20:26:34] RCON (In-Game): Player #0 (SuperMike.Th) has logged in.
+[20:26:39] RCON (In-Game): Player [SuperMike.Th] sent command: gmx restart
+[20:26:51] 
+----------------------------------
+[20:26:51] -------------Movie Server-----------
+[20:26:51] ----------------------------------
+
+[20:26:51] Number of vehicle models: 0
+[21:08:38] RCON (In-Game): Player [SuperMike.Th] sent command: gmx restart
+[21:08:51] RCON (In-Game): Player [SuperMike.Th] sent command: gmx restart
+[21:08:56] RCON (In-Game): Player [SuperMike.Th] sent command: login omar
+[21:08:59] RCON (In-Game): Player [SuperMike.Th] sent command: gmx restart
+[21:09:09] RCON (In-Game): Player [SuperMike.Th] sent command: gmx restart
+[21:09:15] RCON (In-Game): Player [SuperMike.Th] sent command: gmx res
+[21:09:17] RCON (In-Game): Player [SuperMike.Th] sent command: gmx restart
+[21:09:21] [part] SuperMike.Th has left the server (0:1)
+[21:09:47] Incoming connection: 127.0.0.1:65254
+[21:09:47] [join] SuperMike.Th has joined the server (0:127.0.0.1)
+[21:09:53] RCON (In-Game): Player #0 (SuperMike.Th) has logged in.
+[21:09:56] RCON (In-Game): Player [SuperMike.Th] sent command: gmx restart
+[21:10:08] RCON (In-Game): Player [SuperMike.Th] sent command: gmx restart
+[21:10:57] RCON (In-Game): Player [SuperMike.Th] sent command: gmx restart
+[21:11:09] 
+----------------------------------
+[21:11:09] -------------Movie Server-----------
+[21:11:09] ----------------------------------
+
+[21:11:09] Number of vehicle models: 0
+[21:12:19] RCON (In-Game): Player [SuperMike.Th] sent command: gmx restart
+[21:12:31] 
+----------------------------------
+[21:12:31] -------------Movie Server-----------
+[21:12:31] ----------------------------------
+
+[21:12:31] Number of vehicle models: 0
+[21:12:59] [death] SuperMike.Th died 255
+[21:13:23] [death] SuperMike.Th died 255
+[21:50:31] RCON (In-Game): Player [SuperMike.Th] sent command: gmx restart
+[21:50:43] 
+----------------------------------
+[21:50:43] -------------Movie Server-----------
+[21:50:43] ----------------------------------
+
+[21:50:43] Number of vehicle models: 0
+[21:53:37] RCON (In-Game): Player [SuperMike.Th] sent command: gmx restart
+[21:53:49] 
+----------------------------------
+[21:53:49] -------------Movie Server-----------
+[21:53:49] ----------------------------------
+
+[21:53:49] Number of vehicle models: 0
+[21:56:33] RCON (In-Game): Player [SuperMike.Th] sent command: gmx restart
+[21:56:45] 
+----------------------------------
+[21:56:45] -------------Movie Server-----------
+[21:56:45] ----------------------------------
+
+[21:56:45] Number of vehicle models: 0
+[21:58:12] RCON (In-Game): Player [SuperMike.Th] sent command: gmx restart
+[21:58:24] 
+----------------------------------
+[21:58:24] -------------Movie Server-----------
+[21:58:24] ----------------------------------
+
+[21:58:24] Number of vehicle models: 0
+[22:01:25] RCON (In-Game): Player [SuperMike.Th] sent command: gmx restart
+[22:01:37] 
+----------------------------------
+[22:01:37] -------------Movie Server-----------
+[22:01:37] ----------------------------------
+
+[22:01:37] Number of vehicle models: 0
+[22:02:07] sscanf warning: Strings without a length are deprecated, please add a destination size.
+[22:02:10] sscanf warning: Strings without a length are deprecated, please add a destination size.
+[22:05:11] [part] SuperMike.Th has left the server (0:1)

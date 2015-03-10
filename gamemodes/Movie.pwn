@@ -3,7 +3,10 @@
 #include <a_samp>
 #include <zcmd>
 #include <sscanf2>
-/// Defines
+/////////
+#undef MAX_PLAYERS
+/////// Defines
+#define MAX_PLAYERS 50
 #define COLOR_BLACK 0x00000000
 #define COLOR_WHITE 0xFFFFFFAA
 #define COLOR_GREEN 0x9EC73DAA
@@ -12,13 +15,19 @@
 #define COLOR_ORANGE 0xFF9900AA
 #define COLOR_PINK 0xFF66FFAA
 #define COLOR_GREY 0xAFAFAFAA
+/////////////enums
+enum DataUser
+{
+    PASSWORD,
+    ADMIN,
+    SCORE
+};
 
-#define Admin_Level 0
-
-
-////////////////////////Variables
-
-//Nombres vehiculos
+////////////////////////Var
+new pInfo[MAX_PLAYERS][DataUser];
+///////////////// Dialog
+#define WEAPON_DIALOG_ID 1
+//Vehicle Names
 new VehicleNames[212][] =
 {
         {"Landstalker"},
@@ -286,10 +295,7 @@ new WeaponNames[47][] =
         {"Parachute"}
 };
 
-
-//////////
-
-////////
+/////////////////////////////////////////////////////////////////////////////////
 
 main()
 {
@@ -605,6 +611,7 @@ public OnGameModeInit()
     AddPlayerClass(299,2175.6648,1285.7250,42.2241,89.6379,0,0,0,0,0,0);
 
 
+
 	return 1;
 }
 
@@ -623,13 +630,12 @@ public OnPlayerRequestClass(playerid, classid)
 
 public OnPlayerConnect(playerid)
 {
-    new name[MAX_PLAYER_NAME], text[24+MAX_PLAYER_NAME];
-    /////////////////////////////////
-    GetPlayerName(playerid, name, sizeof(name));
-    format(text, sizeof(text), "%s ha entrado al servidor", name);
+    new text[24+MAX_PLAYER_NAME];
+    format(text, sizeof(text), "%s ha entrado al servidor", GetPlayerNameForText(playerid));
     SendClientMessageToAll(COLOR_GREY, text);
-    
 	SendClientMessage(playerid, COLOR_YELLOW, "Welcome to the Movie server");
+
+   
 	return 1;
 }
 
@@ -798,6 +804,17 @@ public OnVehicleStreamOut(vehicleid, forplayerid)
 
 public OnDialogResponse(playerid, dialogid, response, listitem, inputtext[])
 {
+    if(response == 1)
+    {
+        switch(dialogid)
+        {
+            case 1:
+            {
+                new weapons[] = {16,17,18,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,39,40,41,42,43,46};
+                return GivePlayerWeapon(playerid, weapons[listitem], 500);
+            }            
+        }
+    }
 	return 1;
 }
 
@@ -807,65 +824,62 @@ public OnPlayerClickPlayer(playerid, clickedplayerid, source)
 }
 
 ////////////////////////////////////// Commands //////////////////////////////////////
+//////////////////// Register Command ////////////////
 CMD:register(playerid, params[])
 {
-    new string[256];
-    new name[MAX_PLAYER_NAME];
-    GetPlayerName(playerid, name, sizeof(name));
-    format(string, sizeof(string), "%s.ini", name);
-    if(fopen(string, io_read))
-    {
-        SendClientMessage(playerid, COLOR_RED, "[INFO]: Su cuenta ya esta registrada");
-    }
+    new password[256];
+    if(sscanf(params, "s", password)) return SendClientMessage(playerid, COLOR_RED, "[INFO] Use /register [password]");
     else
     {
-        new File:data = fopen(string, io_write);
-        if(data)
+        new string[256];
+        new name[MAX_PLAYER_NAME];
+        GetPlayerName(playerid, name, sizeof(name));
+        format(string, sizeof(string), "%s.ini", name);
+        if(fexist(string))
         {
-            fwrite(data, "[data]\r\n");
-            fwrite(data, "Name = ");
-            fwrite(data, name);
-            fwrite(data, "\r\nAdmin = ");
-            fclose(data);
+            SendClientMessage(playerid, COLOR_RED, "[INFO]: Su cuenta ya esta registrada");
         }
-        SendClientMessage(playerid, COLOR_GREY, "[INFO]: Gracias por registrarte");
+        else
+        {
+            new File:data = fopen(string, io_write);
+            if(data)
+            {
+                new var[256];
+                new pass[265];
+                format(var, sizeof(var), "\r\nAdmin = %d", pInfo[playerid][ADMIN]);
+                format(pass, sizeof(pass),"\r\nPassword = %s", password);
+                fwrite(data, "[data]\r\n");
+                fwrite(data, "Name = ");
+                fwrite(data, name);
+                fwrite(data, pass);
+                fwrite(data, var);
+                fclose(data);
+            }
+
+            SendClientMessage(playerid, COLOR_GREY, "[INFO]: Gracias por registrarte");
     }
 
+    }
     return 1;
 }
 
+/////////////////////////////////////// Command Help ////////////////////////////////////////////////////////////
 CMD:help(playerid, params[])
 {
     ShowPlayerDialog(playerid, 1, 0, "Help", "Commands\n /register\n /health\n /w(eapon)\n /v(ehicle)\n /skin", "Next", "Close");
     return 1;
 }
 
+////////////////////// Command Health
 CMD:health(playerid, params[])
 {
 	SetPlayerHealth(playerid, 100.0);
 	return 1; 
 }
-
+////////////// Weapon
 CMD:w(playerid, params[])
 {
-	new weaponid;
-	if(sscanf(params, "i", weaponid)) return SendClientMessage(playerid, COLOR_RED, "[SERVER] Command error /w [ID Weapon]");
-	else
-	{
-		GivePlayerWeapon(playerid, weaponid, 500);
-	}
-	return 1;
-}
-
-CMD:we(playerid, params[])
-{
-	new weaponName[256];
-	if(sscanf(params, "s", weaponName)) return SendClientMessage(playerid, COLOR_RED, "[SERVER] Command error /we [Name of weapon]");
-	else
-	{
-		new weapon = GetWeaponIDFromName(weaponName);
-		GivePlayerWeapon(playerid, weapon, 500);
-	}
+    ShowPlayerDialog(playerid, WEAPON_DIALOG_ID, 2, "Weapon","Grenade\nTear Gass\nMolotov Cocktail\n9mm\nSilenced 9mm\nDesert Eagle\nShotgun\nSawnoff Shotgun\nCombat Shotgun\nMicro Uzi\nMP5\nAK-47\nM4\nTec-9\nCountry Rifle\nSniper Rifle\nRPG\nHS Rocket\nFlamethower\nC4 Explosive\nC4 Detonator\nSpraycan\nFire Extinguisher\nCamera\nParachute", "Select", "Cancel");    
 	return 1;
 }
 
@@ -919,16 +933,25 @@ CMD:skin(playerid, params[])
 }
 
 
+//////////////////////////////////////////////////////////////////// Stock ///////////////////////////////////////////////////////////////////////////////////////////
+stock GetPlayerNameForText(playerid)
+{
+    new name[MAX_PLAYER_NAME];
+    new string[256];
+    GetPlayerName(playerid, name, sizeof(name));
+    format(string, sizeof(string), "%s", name);
+    return string;
+}
 
-///////////////////////// Stock //////////////////////
 stock GetVehicleModelIDFromName(vname[])
 {
-        for(new i = 0; i < 211; i++)
-        {
-                if(strfind(VehicleNames[i], vname, true) != -1)
-                return i + 400;
-        }
-        return -1;
+    for(new i = 0; i < 211; i ++)
+    {
+        if(strfind(VehicleNames[i], vname, true) != -1)
+            return i + 400;
+    }
+
+    return 1;
 }
 
 stock GetWeaponIDFromName(name[])
@@ -938,5 +961,29 @@ stock GetWeaponIDFromName(name[])
 		if(strfind(WeaponNames[i], name, true) != -1)
 			return i;
 	}
-	return -1;
+	return 1;
 }
+
+
+// stock ReadPlayerData(line, playerid)
+// {
+//     new string[256];
+//     new name[MAX_PLAYER_NAME];
+//     new File:player;
+//     GetPlayerName(playerid, name, sizeof(name));
+//     format(string,256,"%s.ini", name);
+//     player = fopen(string, io_read);
+//     for(new i = 0; i <= line; i++)
+//     {
+//         fread(player, string);
+//         if(line == i)
+//         {
+//             fclose(player);
+//             return string;
+//         }        
+//         return string;
+//     }
+
+    
+// }
+
